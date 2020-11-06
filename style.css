@@ -25,6 +25,8 @@
     margin: 0;
   
     display: flex;
+
+    flex-direction: column;
   
     width: 100vw;
   
@@ -35,7 +37,17 @@
     align-items: center;
   
     background-color: hsl(var(--hue), 100%, 20%) ;
+
+       
   
+  }
+
+  .image{
+
+    padding: 10px 10px;
+
+    height: 300px;
+    
   }
   
   body.correct {
@@ -62,8 +74,7 @@
   
     padding: 10px;
   
-    box-shadow: 0 0 10px 2px;
-  
+      
   }
   
   .btn-grid {
@@ -82,13 +93,13 @@
   
     --hue: var(--hue-neutral);
   
-    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border: 3px solid hsl(var(--hue), 100%, 30%);
   
     background-color: hsl(var(--hue), 100%, 50%);
   
     border-radius: 5px;
   
-    padding: 5px 10px;
+    padding: 10px 10px;
   
     color: white;
   

@@ -138,31 +138,17 @@ const questions = [
 
   {
 
-    question: 'What is 2 + 2?',
+    question: 'Garampani sanctuary is located at',
 
-    answers: [
+    answers : [
 
-      { text: '4', correct: true },
+      { text: 'Junagarh, Gujarat', correct: false },
 
-      { text: '22', correct: false }
+      { text: 'Diphu, Assam', correct: true },
 
-    ]
+      { text: 'Kohima, Nagaland', correct: false },
 
-  },
-
-  {
-
-    question: 'Who is the best YouTuber?',
-
-    answers: [
-
-      { text: 'Web Dev Simplified', correct: true },
-
-      { text: 'Traversy Media', correct: true },
-
-      { text: 'Dev Ed', correct: true },
-
-      { text: 'Fun Fun Function', correct: true }
+      {text: 'Gangtok, Sikkim', correct: false}
 
     ]
 
@@ -170,17 +156,17 @@ const questions = [
 
   {
 
-    question: 'Is web development fun?',
+    question: 'Grand Central Terminal, Park Avenue, New York is the worlds',
 
     answers: [
 
-      { text: 'Kinda', correct: false },
+      { text: 'largest railway station', correct: true },
 
-      { text: 'YES!!!', correct: true },
+      { text: 'highest railway station', correct: false },
 
-      { text: 'Um no', correct: false },
+      { text: 'longest railway station', correct: false },
 
-      { text: 'IDK', correct: false }
+      { text: 'None of the above', correct: false }
 
     ]
 
@@ -188,13 +174,143 @@ const questions = [
 
   {
 
-    question: 'What is 4 * 2?',
+    question: 'Entomology is the science that studies',
 
     answers: [
 
-      { text: '6', correct: false },
+      { text: 'Behavior of human beings', correct: false },
 
-      { text: '8', correct: true }
+      { text: 'Insects', correct: true },
+
+      { text: 'The origin and history of technical and scientific terms', correct: false },
+
+      { text: 'The formation of rocks', correct: false }
+
+    ]
+
+  },
+
+  {
+
+    question: 'First China War was fought between',
+
+    answers : [
+
+      { text: 'China and Britain', correct: true },
+
+      { text: 'China and France', correct: false },
+
+      { text: 'China and Egypt', correct: false },
+
+      {text: 'China and Greek', correct: false}
+
+    ]
+
+  },
+
+  {
+
+    question: '	Fire temple is the place of worship of which of the following religion?',
+
+    answers : [
+
+      { text: 'Taoism', correct: false },
+
+      { text: 'Judaism', correct: false },
+
+      { text: 'Zoroastrianism (Parsi Religion)', correct: true },
+
+      {text: 'Shintoism', correct: false}
+
+    ]
+
+  },
+
+  {
+
+    question: 'For which of the following disciplines is Nobel Prize awarded?',
+
+    answers: [
+
+      { text: 'Physics and Chemistry', correct: false },
+
+      { text: 'Physiology or Medicine', correct: false },
+
+      { text: 'Literature, Peace and Economics', correct: false },
+
+      { text: 'All of the above', correct: true }
+
+    ]
+
+  },
+
+  {
+
+    question: '	Hitler party which came into power in 1933 is known as',
+
+    answers: [
+
+      { text: 'Labour Party', correct: false },
+
+      { text: 'Nazi Party', correct: true },
+
+      { text: 'Ku-Klux-Klan', correct: false },
+
+      { text: 'Democratic Party', correct: false }
+
+    ]
+
+  },
+
+  {
+
+    question: 'Galileo was an Italian astronomer who',
+
+    answers: [
+
+      { text: 'developed the telescope', correct: false },
+
+      { text: 'discovered four satellites of Jupiter', correct: false },
+
+      { text: 'discovered that the movement of pendulum produces a regular time measurement', correct: false },
+
+      { text: 'All of the above', correct: true }
+
+    ]
+
+  },
+
+  {
+
+    question: 'Gulf cooperation council was originally formed by',
+
+    answers: [
+
+      { text: 'Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and United Arab Emirates', correct: true },
+
+      { text: 'Second World Nations', correct: false },
+
+      { text: 'Third World Nations', correct: false },
+
+      { text: 'Fourth World Nations', correct: false }
+
+    ]
+
+  },
+
+  {
+
+    question: 'Golf player Vijay Singh belongs to which country?',
+
+    answers: [
+
+      { text: 'USA', correct: false },
+
+      { text: 'Fiji', correct: true },
+
+      { text: 'India', correct: false },
+
+      { text: 'UK', correct: false }
 
     ]
 
