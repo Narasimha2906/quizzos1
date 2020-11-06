@@ -8,6 +8,8 @@ const questionElement = document.getElementById('question')
 
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+let score = 0
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -58,6 +60,8 @@ function showQuestion(question) {
 
       button.dataset.correct = answer.correct
 
+      
+
     }
 
     button.addEventListener('click', selectAnswer)
@@ -102,12 +106,24 @@ function selectAnswer(e) {
 
   } else {
 
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'Check Your Score'
 
     startButton.classList.remove('hide')
 
+    score = score - 10;
+
+    localStorage.setItem('mostRecentscore', score);
+
+    startButton.addEventListener('click', scoreShow)
+
+    
+
   }
 
+}
+
+function scoreShow(){
+  return window.location.assign('/end.html')
 }
 
 function setStatusClass(element, correct) {
@@ -116,11 +132,18 @@ function setStatusClass(element, correct) {
 
   if (correct) {
 
-    element.classList.add('correct')
+    element.classList.add('correct');
+
+    score += 1;
+
+    
+    
 
   } else {
 
     element.classList.add('wrong')
+
+    
 
   }
 
